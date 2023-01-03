@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: blueviolet;
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    width:200px;
+    height:50px;
+    background:black;
+    border:none;
+    border-radius:5px;
+    font-size: 1.2rem;
+    color:white;
+}
+#btn:hover{
+    background:yellow;
+    color:black;
+    border-radius:30px;
+}
